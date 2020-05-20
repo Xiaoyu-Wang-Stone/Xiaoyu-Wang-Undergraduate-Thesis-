@@ -1,0 +1,17 @@
+! Users should add all user specific namelist changes below in the form of 
+! namelist_var = new_namelist_value 
+ncdata = '/home/xywang/case1/new_waccm3548_2x_t43.cam2.i.1870-01-01-00000.nc'
+
+flbc_file = '/home/xywang/case1/new40_LBC_1765-2005_1.9x2.5_CMIP5_za_c091204.nc'
+
+ext_frc_specifier = 'NO2 -> /home/xywang/case1/new_IPCC_emissions_aircraft_NO2_1850-2000_1.9x2.5_c090729.nc'
+
+srf_emis_specifier = 'CH2O -> /home/xywang/case1/new_IPCC_emissions_houw_CH2O_1850-2000_1.9x2.5.c090728.nc','CO -> /home/xywang/case1/new_IPCC_emissions_houw_CO_1850-2000_1.9x2.5.c090728.nc','NO -> /home/xywang/case1/new_IPCC_emissions_houw_NOx_1850-2000_1.9x2.5.c090728.nc'
+
+solar_data_file = '/home/xywang/case1/new_spectral_irradiance_Lean_1850_cntl_c100407.nc'
+
+dtime = 100
+nsplit = 128
+nspltrac = 128
+nspltvrm = 128
+inithist ='DAILY' 
